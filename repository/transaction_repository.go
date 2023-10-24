@@ -32,7 +32,7 @@ func (tr *transactionRepository) LoadData(c context.Context) (ApiResponseModel.P
 	var qaicashMerchantId = "1"
 	var secretKey = "secret"
 	var hash = Helper.HmacSHA256(qaicashMerchantId, secretKey)
-	baseURL := tr.env.MekongBaseUrl + qaicashMerchantId + "/deposit/routing/methods/complete"
+	baseURL := tr.env.ExternalApiBaseUrl + qaicashMerchantId + "/deposit/routing/methods/complete"
 
 	params := url.Values{}
 	params.Set("userId", qaicashMerchantId)

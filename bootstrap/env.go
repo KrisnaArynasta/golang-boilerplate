@@ -24,7 +24,7 @@ type Env struct {
 	RefreshTokenExpiryHour int    `mapstructure:"REFRESH_TOKEN_EXPIRY_HOUR"`
 	AccessTokenSecret      string `mapstructure:"ACCESS_TOKEN_SECRET"`
 	RefreshTokenSecret     string `mapstructure:"REFRESH_TOKEN_SECRET"`
-	MekongBaseUrl          string `mapstructure:"MEKONG_BASE_URL"`
+	ExternalApiBaseUrl     string `mapstructure:"EXTERNAL_API_BASE_URL"`
 }
 
 func NewEnv() *Env {
