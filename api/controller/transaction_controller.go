@@ -28,7 +28,12 @@ func (tc *TransactionController) LoadData(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, data)
+	response := ApiResponseModel.TransactionDataResponse{
+		Success: true,
+		Message: "",
+		Data:    data,
+	}
+	c.JSON(http.StatusOK, response)
 }
 
 func (tc *TransactionController) PostData(c *gin.Context) {
@@ -72,7 +77,13 @@ func (tc *TransactionController) PostData(c *gin.Context) {
 		c.JSON(http.StatusInternalServerError, ApiResponseModel.ErrorResponse{Message: "Something went wrong! Please contact Administrator"})
 		return
 	}
-	c.JSON(http.StatusOK, data)
+
+	response := ApiResponseModel.TransactionDataResponse{
+		Success: true,
+		Message: "",
+		Data:    data,
+	}
+	c.JSON(http.StatusOK, response)
 }
 
 func (tc *TransactionController) LoadDataFromDatabase(c *gin.Context) {
