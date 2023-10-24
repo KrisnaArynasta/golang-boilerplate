@@ -19,6 +19,7 @@ func TransactionRoute(group *gin.RouterGroup, protectedRouter *gin.RouterGroup, 
 		TransactionService: Service.NewTransactionService(tr, timeout, td),
 	}
 
+	//public request
 	group.GET("/get_data", tc.LoadData)
 
 	// protectedRouter will use Middleware.BasicAuth (in route.Setup) for private request validation.
