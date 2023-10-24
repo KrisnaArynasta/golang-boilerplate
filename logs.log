@@ -134,3 +134,5 @@
 {"level":"error","time":"2023-10-19T14:58:47+07:00","message":"Correlation: 23a31914-0377-41fb-a0d4-21eb886beca4, Message: Duplicate orderId = DEV-10000011"}
 {"level":"info","time":"2023-10-23T14:24:44+07:00","message":"Application Start"}
 {"level":"info","time":"2023-10-23T14:24:44+07:00","message":"The App is running in development env"}
+{"level":"info","time":"2023-10-24T10:19:11+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-24T10:19:11+07:00","message":"The App is running in development env"}

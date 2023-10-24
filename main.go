@@ -19,7 +19,7 @@ func main() {
 
 	// db := app.SqlDb
 	// defer app.CloseDBConnection()
-	db := databaseservice.Init()
+	db := databaseservice.Init(env.DBHost, env.DBUser, env.DBPass, env.DBName, env.DBPort)
 	defer db.CloseDBConnection()
 
 	gin := gin.Default()
