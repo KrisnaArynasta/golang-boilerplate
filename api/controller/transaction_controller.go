@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
-	DataBaseModel "testing-api/interface"
 	Interface "testing-api/interface"
 	Loghelper "testing-api/loghelper"
 	ApiRequestModel "testing-api/model/api/request"
@@ -15,7 +14,6 @@ import (
 
 type TransactionController struct {
 	TransactionService Interface.TransactionService
-	DataBase           DataBaseModel.TransactionDatabase
 }
 
 func (tc *TransactionController) LoadData(c *gin.Context) {
@@ -68,7 +66,7 @@ func (tc *TransactionController) PostData(c *gin.Context) {
 		return
 	}
 
-	err = tc.DataBase.Insert(c, data)
+	err = tc.TransactionService.InsertToDatabase(c, data)
 	if err != nil {
 		Loghelper.WriteLog().Error().Msg(err.Error())
 		c.JSON(http.StatusInternalServerError, ApiResponseModel.ErrorResponse{Message: "Something went wrong! Please contact Administrator"})
@@ -88,12 +86,17 @@ func (tc *TransactionController) LoadDataFromDatabase(c *gin.Context) {
 		idValue = id
 	}
 
-	data, err := tc.DataBase.GetData(c, idValue)
+	data, err := tc.TransactionService.GetFromDatabase(c, idValue)
 	if err != nil {
 		Loghelper.WriteLog().Error().Msg(err.Error())
 		c.JSON(http.StatusInternalServerError, ApiResponseModel.ErrorResponse{Message: err.Error()})
 		return
 	}
 
-	c.JSON(http.StatusOK, data)
+	response := ApiResponseModel.TransactionDataResponse{
+		Success: true,
+		Message: "",
+		Data:    data,
+	}
+	c.JSON(http.StatusOK, response)
 }

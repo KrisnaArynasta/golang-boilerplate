@@ -10,6 +10,7 @@ import (
 	Mocks "testing-api/mocks"
 	ApiRequestModel "testing-api/model/api/request"
 	ApiResponseModel "testing-api/model/api/response"
+	DataBaseModel "testing-api/model/database"
 	Service "testing-api/service"
 	"time"
 
@@ -69,9 +70,12 @@ var mockJsonPostData = `{
     "message": ""
 }`
 
+var mockTransactionData = []DataBaseModel.TransactionDataFromDatabase{{Id: 1, Amount: 1500000000, OrderId: "DEV-10000001", TransactionId: "9999"}}
+
 func TestLoadDataSpecifyPaymentMethod(t *testing.T) {
 	mockTestingRepository := new(Mocks.TransactionRepository)
-	service := Service.NewTransactionService(mockTestingRepository, time.Second*2)
+	mockTestingDatabase := new(Mocks.TransactionDatabase)
+	service := Service.NewTransactionService(mockTestingRepository, time.Second*2, mockTestingDatabase)
 
 	request := "thb_qr"
 	// dataDetails := []Domain.Detail{}
@@ -100,9 +104,10 @@ func TestLoadDataSpecifyPaymentMethod(t *testing.T) {
 	//mockTestingRepository.AssertExpectations(t)
 }
 
-func TestPostDataSpecifyPaymentMethod(t *testing.T) {
+func TestPostDataToProvider(t *testing.T) {
 	mockTestingRepository := new(Mocks.TransactionRepository)
-	service := Service.NewTransactionService(mockTestingRepository, time.Second*2)
+	mockTestingDatabase := new(Mocks.TransactionDatabase)
+	service := Service.NewTransactionService(mockTestingRepository, time.Second*2, mockTestingDatabase)
 
 	request := ApiRequestModel.PostDataRequest{
 		OrderId:         "CCCX001",
@@ -129,4 +134,19 @@ func TestPostDataSpecifyPaymentMethod(t *testing.T) {
 	assert.NoError(t, err)
 	assert.NotNil(t, result)
 	assert.Equal(t, result.DepositTransaction.OrderId, request.OrderId)
+}
+
+func TestLoadDataFromDatabase(t *testing.T) {
+	mockTestingRepository := new(Mocks.TransactionRepository)
+	mockTestingDatabase := new(Mocks.TransactionDatabase)
+	service := Service.NewTransactionService(mockTestingRepository, time.Second*2, mockTestingDatabase)
+
+	var request = 1
+
+	mockTestingDatabase.Mock.On("GetData", mock.Anything).Return(mockTransactionData, nil).Once()
+	result, err := service.GetFromDatabase(context.Background(), request)
+
+	assert.NoError(t, err)
+	assert.NotNil(t, result)
+	assert.Equal(t, result[0].Id, request)
 }

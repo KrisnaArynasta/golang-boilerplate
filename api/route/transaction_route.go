@@ -16,8 +16,7 @@ func TransactionRoute(group *gin.RouterGroup, protectedRouter *gin.RouterGroup, 
 	tr := Repository.NewTransactionRepository(env)
 	td := Database.NewTransactionDatabase(db)
 	tc := &Controller.TransactionController{
-		TransactionService: Service.NewTransactionService(tr, timeout),
-		DataBase:           td,
+		TransactionService: Service.NewTransactionService(tr, timeout, td),
 	}
 
 	group.GET("/get_data", tc.LoadData)

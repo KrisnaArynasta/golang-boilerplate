@@ -18,7 +18,8 @@ import (
 func BenchmarkLoadDataSpecifyPaymentMethod(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		mockTestingRepository := new(Mocks.TransactionRepository)
-		service := Service.NewTransactionService(mockTestingRepository, time.Second*2)
+		mockTestingDatabase := new(Mocks.TransactionDatabase)
+		service := Service.NewTransactionService(mockTestingRepository, time.Second*2, mockTestingDatabase)
 
 		request := "thb_qr"
 		var mockResponse ApiResponseModel.PaymentMethodResponse
@@ -29,10 +30,11 @@ func BenchmarkLoadDataSpecifyPaymentMethod(b *testing.B) {
 	}
 }
 
-func BenchmarkPostDataSpecifyPaymentMethod(b *testing.B) {
+func BenchmarkPostDataToProvider(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		mockTestingRepository := new(Mocks.TransactionRepository)
-		service := Service.NewTransactionService(mockTestingRepository, time.Second*2)
+		mockTestingDatabase := new(Mocks.TransactionDatabase)
+		service := Service.NewTransactionService(mockTestingRepository, time.Second*2, mockTestingDatabase)
 
 		request := ApiRequestModel.PostDataRequest{
 			OrderId:         "CCCX001",
