@@ -61,3 +61,16 @@ func BenchmarkPostDataToProvider(b *testing.B) {
 		//mockTestingRepository.AssertExpectations(b)
 	}
 }
+
+func BenchmarkLoadDataFromDatabase(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		mockTestingRepository := new(Mocks.TransactionRepository)
+		mockTestingDatabase := new(Mocks.TransactionDatabase)
+		service := Service.NewTransactionService(mockTestingRepository, time.Second*2, mockTestingDatabase)
+
+		var request = 1
+
+		mockTestingDatabase.Mock.On("GetData", mock.Anything).Return(mockTransactionData, nil).Once()
+		service.GetFromDatabase(context.Background(), request)
+	}
+}
