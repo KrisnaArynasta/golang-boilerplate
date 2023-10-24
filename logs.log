@@ -1,0 +1,136 @@
+{"level":"info","time":"2023-09-07T15:20:37+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-07T15:20:42+07:00","message":"get data"}
+{"level":"info","time":"2023-09-07T15:21:06+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-07T15:21:23+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-09-07T15:21:23+07:00","message":"Correlation: 8d40ade9-3c48-43b1-91c6-8b74a5ba6053, Message: Duplicate orderId = DEV-10000008"}
+{"level":"info","time":"2023-09-12T14:23:34+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:26:48+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:33:44+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:34:25+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:35:16+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:35:36+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:36:11+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:37:39+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T14:37:41+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T14:39:21+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T14:39:48+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T14:41:08+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:41:37+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T14:50:32+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T14:50:49+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T14:52:04+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T14:53:16+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"error","time":"2023-09-12T14:59:08+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"error","time":"2023-09-12T15:02:22+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T15:28:19+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T15:28:40+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T15:31:23+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T15:32:13+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"error","time":"2023-09-12T15:32:47+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T15:33:29+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T15:34:53+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T15:36:04+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T15:37:25+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T15:39:53+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"error","time":"2023-09-12T15:40:19+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"error","time":"2023-09-12T15:41:17+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"error","time":"2023-09-12T15:41:59+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T15:44:33+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T15:52:31+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T15:54:21+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T15:57:12+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T15:57:33+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T15:58:00+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T15:58:48+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T15:59:18+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T16:20:04+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T16:20:28+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T16:23:07+07:00","message":"Error calling stored procedure: sql: database is closed"}
+{"level":"info","time":"2023-09-12T16:36:00+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T16:39:29+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T16:41:06+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T16:43:03+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T16:50:07+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T17:00:32+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T17:00:46+07:00","message":"Error calling stored procedure: mssql: Incorrect syntax near '?'."}
+{"level":"info","time":"2023-09-12T17:01:10+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T17:01:56+07:00","message":"Error calling stored procedure: mssql: Incorrect syntax near '?'."}
+{"level":"info","time":"2023-09-12T17:09:52+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T17:10:25+07:00","message":"Error calling stored procedure: mssql: Incorrect syntax near '?'."}
+{"level":"info","time":"2023-09-12T17:10:52+07:00","message":"Application Start"}
+{"level":"error","time":"2023-09-12T17:11:29+07:00","message":"Error fetching rows: sql: Scan error on column index 1, name \"amount\": converting NULL to float64 is unsupported"}
+{"level":"info","time":"2023-09-12T17:13:12+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T17:14:20+07:00","message":"Application Start"}
+{"level":"info","time":"2023-09-12T17:22:23+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T10:50:46+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T10:51:50+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'.  Reason: The password of the account has expired."}
+{"level":"info","time":"2023-10-19T10:55:13+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T11:12:30+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T11:32:35+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T11:33:42+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T11:34:07+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T11:43:56+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:44:07+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:44:56+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:45:20+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:45:44+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"info","time":"2023-10-19T11:46:15+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:46:22+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:46:33+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:46:40+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:47:32+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:47:40+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:47:56+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"info","time":"2023-10-19T11:48:26+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:48:28+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"info","time":"2023-10-19T11:49:53+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:49:57+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"info","time":"2023-10-19T11:50:20+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:50:29+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"info","time":"2023-10-19T11:51:31+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:51:44+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"info","time":"2023-10-19T11:53:34+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:53:37+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:53:37+07:00","message":"mssql: login error: Login failed for user 'krisna'."}
+{"level":"info","time":"2023-10-19T11:53:55+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:53:58+07:00","message":"Error calling stored procedure: mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:53:58+07:00","message":"mssql: login error: Login failed for user 'krisna'."}
+{"level":"error","time":"2023-10-19T11:55:44+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T11:55:44+07:00","message":"Correlation: aa468a54-a640-4a99-b129-067533934111, Message: Duplicate orderId = DEV-10000010"}
+{"level":"error","time":"2023-10-19T11:55:53+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T11:55:53+07:00","message":"Correlation: 778868f9-d4b8-4756-9171-853c5910426e, Message: Duplicate orderId = DEV-10000010"}
+{"level":"info","time":"2023-10-19T11:56:03+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:56:06+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T11:56:06+07:00","message":"Correlation: 066293d2-08a7-48b2-9d31-2e4e82112a0d, Message: Duplicate orderId = DEV-10000010"}
+{"level":"info","time":"2023-10-19T11:57:05+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:57:08+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T11:57:08+07:00","message":"Correlation: f61651ea-2795-4e51-a1a9-e46a6cce55d5, Message: Duplicate orderId = DEV-10000010"}
+{"level":"info","time":"2023-10-19T11:58:26+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T11:58:39+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T11:58:39+07:00","message":"Correlation: d81934d2-438c-4e28-b8f5-fa2611dc6f95, Message: Duplicate orderId = DEV-10000010"}
+{"level":"info","time":"2023-10-19T12:00:15+07:00","message":"Application Start"}
+{"level":"error","time":"2023-10-19T12:00:25+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T12:00:25+07:00","message":"Correlation: 3e66e30f-b7eb-490c-b0fa-f50a4d82f6ca, Message: Duplicate orderId = DEV-10000010"}
+{"level":"info","time":"2023-10-19T12:01:43+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T14:50:36+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T14:50:36+07:00","message":"The App is running in development env"}
+{"level":"info","time":"2023-10-19T14:51:07+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T14:51:07+07:00","message":"The App is running in development env"}
+{"level":"info","time":"2023-10-19T14:51:23+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T14:51:23+07:00","message":"The App is running in development env"}
+{"level":"info","time":"2023-10-19T14:53:57+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T14:53:57+07:00","message":"The App is running in development env"}
+{"level":"info","time":"2023-10-19T14:57:00+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T14:57:00+07:00","message":"The App is running in development env"}
+{"level":"error","time":"2023-10-19T14:57:13+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T14:57:13+07:00","message":"Correlation: dd49405b-f178-46b2-8f94-6643196d3743, Message: Duplicate orderId = DEV-10000011"}
+{"level":"info","time":"2023-10-19T14:58:22+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T14:58:22+07:00","message":"The App is running in development env"}
+{"level":"error","time":"2023-10-19T14:58:26+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T14:58:26+07:00","message":"Correlation: 95ccaf21-eaf1-44b0-bee6-5a4d2b957d98, Message: Duplicate orderId = DEV-10000011"}
+{"level":"info","time":"2023-10-19T14:58:46+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-19T14:58:46+07:00","message":"The App is running in development env"}
+{"level":"error","time":"2023-10-19T14:58:47+07:00","message":"Request failed with status code: 400"}
+{"level":"error","time":"2023-10-19T14:58:47+07:00","message":"Correlation: 23a31914-0377-41fb-a0d4-21eb886beca4, Message: Duplicate orderId = DEV-10000011"}
+{"level":"info","time":"2023-10-23T14:24:44+07:00","message":"Application Start"}
+{"level":"info","time":"2023-10-23T14:24:44+07:00","message":"The App is running in development env"}
