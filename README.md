@@ -1,6 +1,7 @@
-# Simple project structure for Go applications.
+# Welcome
+Simple project structure for Go applications.
 
-## .env dummy example:
+## .env Dummy Example:
 
 ```
 APP_ENV=development
