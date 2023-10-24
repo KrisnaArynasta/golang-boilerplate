@@ -1,4 +1,4 @@
-#.env dummy example:
+<h1>.env dummy example:</h1>
 
 APP_ENV=development<br />
 SERVER_ADDRESS=:xxx<br />
