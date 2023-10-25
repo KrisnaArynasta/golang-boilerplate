@@ -1,8 +1,7 @@
 # Welcome
 ### Simple project structure for Go applications.
-
-  
-  
+###
+###
 
 ## .env Dummy Example:
 
